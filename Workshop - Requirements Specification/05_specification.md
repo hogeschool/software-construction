@@ -61,7 +61,7 @@ It should be possible to verify each requirement through testing, inspection, or
 Each requirement should be traceable back to its origin, whether it’s a stakeholder need, a business objective, or a higher-level system requirement. This helps in managing changes and understanding the impact of modifications.
 
 ## Activity
-- Read the scenario below with the a poorly formulated requirement
+- Read the scenario below with a poorly formulated requirement
 - Rewrite the requirement to meet the properties of good requirements
 - Explain how your rewritten requirement satisfies each property of a good requirement
 
