@@ -26,7 +26,7 @@ What should they need to be able to work with our API?
 <details>
 
 ### Answer
-Indeed: good documentation. It is your teams goal to provide good documentation of the MobyPark API during this project.
+Indeed: good documentation. It is your teams goal to provide good documentation of the case study API during this project.
 
 </details>
 
@@ -99,4 +99,4 @@ Not really. It is clear that it is a collaborative to-do app, but it is not clea
 </details>
 
 ## Conclusion
-In this lesson we have deduced some basic requirements from endpoint only. It is your task to reverse engineer all requirements from the MobyPark code base. To help you document your reseach we end with some structure, tips and tricks.
+In this lesson we have deduced some basic requirements from endpoint only. It is your task to reverse engineer all requirements from the case study code base. To help you document your reseach we end with some structure, tips and tricks.

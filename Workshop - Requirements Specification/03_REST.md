@@ -60,7 +60,7 @@ So the login is implemented by calling the `/v1/login` endpoint of the HR-server
 
 Because we call an endpoint with a verb in it ('login'), we know that this is not a REST-based request; we're calling a function so it's a Remote Procedure call (RPC), where calling the login-function results in setting a authentication cookie.
 
-In the MobyPark code you'll find how you would implement the authentication process in REST. But what ís REST?
+In the case study code you'll find how you would implement the authentication process in REST. But what ís REST?
 
 ## What is REST?
 Where RPC is designed around the idea of *calling functions*, REST is designed around the idea of *querying resources*. These resources are usually derived from the entities in our data model. So you can use the endpoints to reverse engineer the data model.
@@ -78,7 +78,7 @@ You can also query single items from a resource:
 
 REST uses Uniform Resource Identifiers (URIs) to expose the internal resources via a web server. Here the URI is the whole URL: the domain and subdomain part (`https://api.store.com`) plus the resource (`orders` or `items`).
 
-> With this knowledge you should already be able to read off the endpoints of the MobyPark API.
+> With this knowledge you should already be able to read off the endpoints of the case study API.
 
 #### Question
 What URL would you expect for fetching accounts? And for prices?
@@ -245,7 +245,7 @@ We expect the status codes:
 - 500 Internal Server Error
 - 201 Created
 
-Take a look at the MobyPark API and see if you recognize these code. They also give you a hint of what the code does.
+Take a look at the case study API and see if you recognize these code. They also give you a hint of what the code does.
 
 </details>
 
@@ -311,4 +311,4 @@ If you did not yet do this, try using the endpoint: `/comments?postId=2`. Now yo
 </details>
 
 ## Conclusion
-You now know what RESTful APIs are, that they are used in many places and that they have their pros and cons. With this knowlegde you should be able to reverse engineer the MobyPark API. Next we discuss how you can extract its underlying requirements, such that you can document those.
+You now know what RESTful APIs are, that they are used in many places and that they have their pros and cons. With this knowlegde you should be able to reverse engineer the case study API. Next we discuss how you can extract its underlying requirements, such that you can document those.

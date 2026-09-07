@@ -1,5 +1,5 @@
 # Introduction
-In this workshop you will learn about requirements, how to collect them and how to write them down. To be able to document the requirements for the MobyPark API we need to develop a basic understanding of RESTful APIs and how to read them. That's why RESTful API reading practice is included in this workshop.
+In this workshop you will learn about requirements, how to collect them and how to write them down. To be able to document the requirements for the case study API we need to develop a basic understanding of RESTful APIs and how to read them. That's why RESTful API reading practice is included in this workshop.
 
 ## Objectives:
 - Understand the principles of REST and its application in software development
